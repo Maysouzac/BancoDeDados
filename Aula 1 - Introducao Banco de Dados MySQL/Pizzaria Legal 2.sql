@@ -39,3 +39,5 @@ VALUES
 	SELECT p.* FROM tb_pizzas p
 	INNER JOIN tb_categorias c ON p.categorias_id = c.id
 	WHERE c.categoria = "doce";
+    
+    SELECT nome AS Classe FROM tb_classes;
